@@ -21,6 +21,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/carousel.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 </head>
@@ -59,22 +60,22 @@
         gtag('config', 'UA-173937125-1');
     </script>
     @stack('scripts')
-    <script>
-        var owl = $('.owl-one');
-        owl.owlCarousel({
-            margin: 10,
-            loop: true,
-            // autoplay:true,
-            // autoplayTimeout:5000,
-            // autoplaySpeed: 1500,
-            // autoplayHoverPause:true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-            }
-        })
-    </script>
+    {{--<script>--}}
+        {{--var owl = $('.owl-one');--}}
+        {{--owl.owlCarousel({--}}
+            {{--margin: 10,--}}
+            {{--loop: true,--}}
+            {{--// autoplay:true,--}}
+            {{--// autoplayTimeout:5000,--}}
+            {{--// autoplaySpeed: 1500,--}}
+            {{--// autoplayHoverPause:true,--}}
+            {{--responsive: {--}}
+                {{--0: {--}}
+                    {{--items: 1--}}
+                {{--},--}}
+            {{--}--}}
+        {{--})--}}
+    {{--</script>--}}
     <script>
         var owl = $('.owl-two');
         owl.owlCarousel({

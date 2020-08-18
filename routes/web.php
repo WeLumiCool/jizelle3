@@ -22,7 +22,6 @@ Route::get('/terms_of_use', function () {
 })->name('terms_of_use');
 
 
-
 //Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');

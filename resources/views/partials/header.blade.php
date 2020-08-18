@@ -1,6 +1,6 @@
 <div class="wrapper">
     <header class="header">
-        <div class="container px-5">
+        <div class="container">
             <div class="header__body">
                 <a href="#" class="header__logo">
                     <img class="logo" src="{{ asset('images/logo.svg') }}" alt="logo">

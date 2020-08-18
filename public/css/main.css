@@ -341,3 +341,10 @@ header.sticky {
     background: #5d94e4 !important;
     border-radius: 10px;
 }
+#texter span{
+    transition: 0.3s;
+}
+.obvod {
+    text-shadow: -1px -1px 0 #0c0c0c, 1px -1px 0 #0c0c0c, -1px 1px 0 #0c0c0c, 1px 1px 0 #0c0c0c;
+    color: white;
+}
