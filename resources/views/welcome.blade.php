@@ -221,7 +221,7 @@
         <div class="container-fluid my-5 py-5" style="background-color: #FDC8AA">
             <div class="container">
                 <div class="owl-two owl-carousel">
-            <div class="row item justify-content-center">
+            <div class="row item justify-content-center w-100">
                 <div class="col-lg-8 col-12 text-center">
                     <p class="font-size-24 line-height-110">
                         Лучшие что покупки из Киргизии, полностью соответствует описанию.
@@ -232,7 +232,7 @@
                     </p>
                 </div>
             </div>
-                    <div class="row item justify-content-center">
+                    <div class="row item justify-content-center w-100">
                         <div class="col-lg-8 col-12 text-center">
                             <p class="font-size-24 line-height-110">
                                 Актуальные модели одежды, качество пошива на высшем уровне. Отдельное спасибо Айнуре! За оперативность по любым вопросам.
@@ -243,7 +243,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row item justify-content-center">
+                    <div class="row item justify-content-center w-100">
                         <div class="col-lg-8 col-12 text-center">
                             <p class="font-size-24 line-height-110">
                                 Быстро! Четко! В срок! Все бы так …
