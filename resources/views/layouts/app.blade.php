@@ -60,22 +60,16 @@
         gtag('config', 'UA-173937125-1');
     </script>
     @stack('scripts')
-    {{--<script>--}}
-        {{--var owl = $('.owl-one');--}}
-        {{--owl.owlCarousel({--}}
-            {{--margin: 10,--}}
-            {{--loop: true,--}}
-            {{--// autoplay:true,--}}
-            {{--// autoplayTimeout:5000,--}}
-            {{--// autoplaySpeed: 1500,--}}
-            {{--// autoplayHoverPause:true,--}}
-            {{--responsive: {--}}
-                {{--0: {--}}
-                    {{--items: 1--}}
-                {{--},--}}
-            {{--}--}}
-        {{--})--}}
-    {{--</script>--}}
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#pick").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 700);
+            });
+        });
+    </script>
     <script>
         var owl = $('.owl-two');
         owl.owlCarousel({

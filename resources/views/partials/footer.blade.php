@@ -1,4 +1,4 @@
-<section>
+<section id="footer">
 <div class="container-fluid py-5" style="background-color: #1D8689;">
     <div class="container">
         <div class="row">
