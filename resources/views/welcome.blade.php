@@ -6,8 +6,8 @@
                 <div class="col-lg-8 col-12 py-lg-0 py-5 d-flex align-items-center justify-content-center">
                     <div class="pt-lg-0 pt-4 text-right">
                         <div class="py-5">
-                            <h1 class="font-weight-normal text-right" style="font-size: 40px; line-height: 47px;">Закупка Plus Size модели от 10 ед.
-                                с бесплатной доставкой! </h1>
+                            <h1 class="font-weight-normal text-right" style="font-size: 40px; line-height: 47px;">Закупка Plus Size модели от 10 ед. <br>
+                                с <strong>бесплатной</strong> доставкой! </h1>
                         </div>
                         <button class="btn mt-4 px-4 py-3 rounded font-size-28 px-5" style="background-color: #E5DD90;" data-toggle="modal" data-target="#submit">
                             Ознакомиться
