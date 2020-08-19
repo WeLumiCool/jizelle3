@@ -76,12 +76,12 @@
     </span>
                         </div>
                         <div class="carousel-item carousel-item--1">
-                            <div class="carousel-item__image"></div>
+                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/1.jpg') }});"></div>
                             <div class="carousel-item__info mt-lg-0 mt-4">
                                 <div class="carousel-item__container">
                                     {{--<h2 class="carousel-item__subtitle">The grand moment </h2>--}}
-                                    <p class="h2 carousel-item__title">Название товара</p>
-                                    <p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>
+                                    <p class="h2 carousel-item__title mb-3">Спортивный костюм</p>
+                                    {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
                                     Заказать в один клик
                                     </button>
@@ -90,12 +90,12 @@
 
                         </div>
                         <div class="carousel-item carousel-item--2">
-                            <div class="carousel-item__image"></div>
+                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/2.jpg') }});"></div>
                             <div class="carousel-item__info">
                                 <div class="carousel-item__container">
                                     {{--<h2 class="carousel-item__subtitle">The big window </h2>--}}
-                                    <p class="h2 carousel-item__title">Название товара</p>
-                                    <p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>
+                                    <p class="h2 carousel-item__title mb-3">Топ</p>
+                                    {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
                                         Заказать в один клик
                                     </button>
@@ -103,12 +103,12 @@
                             </div>
                         </div>
                         <div class="carousel-item carousel-item--3">
-                            <div class="carousel-item__image"></div>
+                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/3.jpg') }});"></div>
                             <div class="carousel-item__info">
                                 <div class="carousel-item__container">
                                     {{--<h2 class="carousel-item__subtitle">Tropical palms </h2>--}}
-                                    <p class="h2 carousel-item__title">Название товара</p>
-                                    <p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>
+                                    <p class="h2 carousel-item__title mb-3">Пальто</p>
+                                    {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
                                         Заказать в один клик
                                     </button>
@@ -117,12 +117,12 @@
                         </div>
 
                         <div class="carousel-item carousel-item--4">
-                            <div class="carousel-item__image"></div>
+                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/4.jpg') }});"></div>
                             <div class="carousel-item__info">
                                 <div class="carousel-item__container">
                                     {{--<h2 class="carousel-item__subtitle">Beach </h2>--}}
-                                    <p class="h2 carousel-item__title">Название товара</p>
-                                    <p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>
+                                    <p class="h2 carousel-item__title mb-3">Платье-рубашка</p>
+                                    {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
                                         Заказать в один клик
                                     </button>
@@ -131,12 +131,12 @@
                         </div>
 
                         <div class="carousel-item carousel-item--5">
-                            <div class="carousel-item__image"></div>
+                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/5.jpg') }});"></div>
                             <div class="carousel-item__info">
                                 <div class="carousel-item__container">
                                     {{--<h2 class="carousel-item__subtitle">The white building </h2>--}}
-                                    <p class="h2 carousel-item__title">Название товара</p>
-                                    <p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>
+                                    <p class="h2 carousel-item__title mb-3">Куртка</p>
+                                    {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
                                         Заказать в один клик
                                     </button>

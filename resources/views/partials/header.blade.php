@@ -9,20 +9,6 @@
                     <span></span>
                 </div>
                 <nav class="header__menu">
-                    {{--                    <ul class="header__list">--}}
-                    {{--                        <li>--}}
-                    {{--                            <a href="#" class="header__link">Каталог</a>--}}
-                    {{--                        </li>--}}
-                    {{--                        <li>--}}
-                    {{--                            <a href="#" class="header__link mx-lg-4">О нас</a>--}}
-                    {{--                        </li>--}}
-                    {{--                        <li>--}}
-                    {{--                            <a href="#" class="header__link">Как мы работаем?</a>--}}
-                    {{--                        </li>--}}
-                    {{--                        <li>--}}
-                    {{--                            <a href="#" class="header__link ml-lg-4">Контакты</a>--}}
-                    {{--                        </li>--}}
-                    {{--                    </ul>--}}
                     <ul class="header__list" id="pick" style="padding-left: 0px;">
                         <li>
                             <a href="#catalog" class="header__link"><img class="nav-header  pr-2"  src="{{ asset('icons/box_icon.svg') }}"
@@ -53,7 +39,6 @@
 <div class="content">
 
 </div>
-
 
 @push('scripts')
     <script type="text/javascript">
