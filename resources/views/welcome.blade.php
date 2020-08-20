@@ -83,7 +83,7 @@
                                     <p class="h2 carousel-item__title mb-3">Спортивный костюм</p>
                                     {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                    Заказать в один клик
+                                        Хочу еще модели
                                     </button>
                                 </div>
                             </div>
