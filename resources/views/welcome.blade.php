@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <section class="block h-100 position-relative" id="main" style="background-image: url({{ asset('images/main.jpg') }}); background-size:cover; background-position: center; background-repeat: no-repeat; min-height: 110%;">
+    <section class="block h-100 position-relative" id="main" style="background-image: url({{ asset('images/main.jpg') }});">
         <div class="container h-100">
             <div class="row justify-content-end align-items-center h-100">
                 <div class="col-lg-8 col-12 py-lg-0 py-5 d-flex align-items-center justify-content-center">
