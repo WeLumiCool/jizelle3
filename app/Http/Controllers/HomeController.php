@@ -39,7 +39,7 @@ class HomeController extends Controller
             $bid->send_token = $request->_token;
             $bid->save();
             $check = 1;
-            Mail::to('info@jizelle.ru')->send(new send($request->all()));
+            Mail::to('sales1@jizelle.ru')->send(new send($request->all()));
         }
         else {
             $check = 0;
