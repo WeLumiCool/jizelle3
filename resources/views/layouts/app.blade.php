@@ -35,6 +35,8 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script charset="UTF-8" src="//web.webpushs.com/js/push/f5c64cd84717959c7df5ae3568360614_0.js" async></script>
+
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
