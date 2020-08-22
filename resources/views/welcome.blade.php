@@ -21,7 +21,171 @@
     <section id="catalog">
         <div class="container my-5 py-5">
             <div class="row justify-content-center">
-                <div class="col-lg-9 col-12" style="border:4px solid #f8f9fa;">
+                <div class="col-lg-12 col-12">
+                    <div class="owl-one owl-carousel text-center">
+                        <div class="item p-4">
+                            <div class="shadow-sm">
+                                <img class="w-100 px-lg-2 px-2" src="{{ asset('images/catalog/1.jpg') }}" alt="">
+                                <div class="container pb-3 mt-3">
+                                    <div class="d-flex">
+                                        <div class="col-12">
+                                            <div class="text-left px-lg-0 px-0">
+                                                <p class="text-secondary font-weight-light mb-1" style="font-size: 12px;">A2005</p>
+                                                <p class="text-dark mb-1" style="font-size: 18px;">Платье</p>
+                                                <div class="d-flex">
+                                                    <div class="mr-1 rounded-circle border" style="width:20px; height:20px; background-color: #734228;"></div>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-2">
+                                                    <p class="text-secondary font-weight-light" style="font-size: 12px;">550 руб</p>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
+                                                        Заказать в один клик
+                                                        {{--Хочу еще модели--}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-4">
+                            <div class="shadow-sm">
+                                <img class="w-100 px-lg-2 px-2" src="{{ asset('images/catalog/2.jpg') }}" alt="">
+                                <div class="container pb-3 mt-3">
+                                    <div class="d-flex">
+                                        <div class="col-12">
+                                            <div class="text-left px-lg-0 px-0">
+                                                <p class="font-size-10 text-secondary font-weight-light mb-1" style="font-size: 12px;">П2003</p>
+                                                <p class="font-size-18 text-dark mb-1" style="font-size: 18px;">Пальто</p>
+                                                <div class="d-flex">
+                                                    <div class="mr-1 rounded-circle border" style="width:20px; height:20px; background-color: #414140;"></div>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-2">
+                                                    <p class="font-size-10 text-secondary font-weight-light" style="font-size: 12px;">980 руб</p>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
+                                                        Заказать в один клик
+                                                        {{--Хочу еще модели--}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-4">
+                            <div class="shadow-sm">
+                                <img class="w-100 px-lg-2 px-2" src="{{ asset('images/catalog/3.jpg') }}" alt="">
+                                <div class="container pb-3 mt-3">
+                                    <div class="d-flex">
+                                        <div class="col-12">
+                                            <div class="text-left px-lg-0 px-0">
+                                                <p class="font-size-12 text-secondary font-weight-light mb-1" style="font-size: 12px;">Б2001</p>
+                                                <p class="font-size-18 text-dark mb-1" style="font-size: 18px;">Блузка</p>
+                                                <div class="d-flex">
+                                                    <div class="mr-1 rounded-circle border" style="width:20px; height:20px; background-color: #fefefe;"></div>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-2">
+                                                    <p class="font-size-12 text-secondary font-weight-light" style="font-size: 12px;">300 руб</p>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
+                                                        Заказать в один клик
+                                                        {{--Хочу еще модели--}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-4">
+                            <div class="shadow-sm">
+                                <img class="w-100 px-lg-2 px-2" src="{{ asset('images/catalog/4.jpg') }}" alt="">
+                                <div class="container pb-3 mt-3">
+                                    <div class="d-flex">
+                                        <div class="col-12">
+                                            <div class="text-left px-lg-0 px-0">
+                                                <p class="font-size-12 text-secondary font-weight-light mb-1" style="font-size: 12px;">A2003</p>
+                                                <p class="font-size-18 text-dark mb-1" style="font-size: 18px;">Платье</p>
+                                                <div class="d-flex">
+                                                    <div class="mr-1 rounded-circle border" style="width:20px; height:20px; background-color: #000000;"></div>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-2">
+                                                    <p class="font-size-12 text-secondary font-weight-light" style="font-size: 12px;">520 руб</p>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
+                                                        Заказать в один клик
+                                                        {{--Хочу еще модели--}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-4">
+                            <div class="shadow-sm">
+                                <img class="w-100 px-lg-2 px-2" src="{{ asset('images/catalog/5.jpg') }}" alt="">
+                                <div class="container pb-3 mt-3">
+                                    <div class="d-flex">
+                                        <div class="col-12">
+                                            <div class="text-left px-lg-0 px-0">
+                                                <p class="font-size-12 text-secondary font-weight-light mb-1" style="font-size: 12px;">Т2002</p>
+                                                <p class="font-size-18 text-dark mb-1" style="font-size: 18px;">Туника</p>
+                                                <div class="d-flex">
+                                                    <div class="mr-1 rounded-circle border" style="width:20px; height:20px; background-color: #fefefe;"></div>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-2">
+                                                    <p class="font-size-12 text-secondary font-weight-light" style="font-size: 12px;">320 руб</p>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
+                                                        Заказать в один клик
+                                                        {{--Хочу еще модели--}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item p-4">
+                            <div class="shadow-sm">
+                                <img class="w-100 px-lg-2 px-2" src="{{ asset('images/catalog/6.jpg') }}" alt="">
+                                <div class="container pb-3 mt-3">
+                                    <div class="d-flex">
+                                        <div class="col-12">
+                                            <div class="text-left px-lg-0 px-0">
+                                                <p class="font-size-12 text-secondary font-weight-light mb-1" style="font-size: 12px;">A2004</p>
+                                                <p class="font-size-18 text-dark mb-1" style="font-size: 18px;" >Платье</p>
+                                                <div class="d-flex">
+                                                    <div class="mr-1 rounded-circle border" style="width:20px; height:20px; background-color: #19057a;"></div>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-2">
+                                                    <p class="font-size-12 text-secondary font-weight-light" style="font-size: 12px;">450 руб</p>
+                                                </div>
+                                                <div class="mt-2">
+                                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
+                                                        Заказать в один клик
+                                                        {{--Хочу еще модели--}}
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     {{--<div class="owl-one owl-carousel">--}}
                     {{--<div class="row item">--}}
                         {{--<div class="col-lg-4 col-12 px-lg-4 px-3 d-flex align-items-center justify-content-center mt-lg-0 mt-3">--}}
@@ -61,90 +225,92 @@
                             {{--</div>--}}
                         {{--</div>--}}
                     {{--</div>--}}
-<div class="carousel-main">
-                    <div class="carousel">
-                        <div class="carousel__nav">
-   <span id="moveLeft" class="carousel__arrow">
-        <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
-</svg>
-    </span>
-                            <span id="moveRight" class="carousel__arrow" >
-      <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
-  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
-</svg>
-    </span>
-                        </div>
-                        <div class="carousel-item carousel-item--1">
-                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/1.jpg') }});"></div>
-                            <div class="carousel-item__info mt-lg-0 mt-4">
-                                <div class="carousel-item__container">
+
+
+{{--<div class="carousel-main">--}}
+                    {{--<div class="carousel">--}}
+                        {{--<div class="carousel__nav">--}}
+   {{--<span id="moveLeft" class="carousel__arrow">--}}
+        {{--<svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">--}}
+    {{--<path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>--}}
+{{--</svg>--}}
+    {{--</span>--}}
+                            {{--<span id="moveRight" class="carousel__arrow" >--}}
+      {{--<svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">--}}
+  {{--<path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>--}}
+{{--</svg>--}}
+    {{--</span>--}}
+                        {{--</div>--}}
+                        {{--<div class="carousel-item carousel-item--1">--}}
+                            {{--<div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/1.jpg') }});"></div>--}}
+                            {{--<div class="carousel-item__info mt-lg-0 mt-4">--}}
+                                {{--<div class="carousel-item__container">--}}
                                     {{--<h2 class="carousel-item__subtitle">The grand moment </h2>--}}
-                                    <p class="h2 carousel-item__title mb-3">Спортивный костюм</p>
+                                    {{--<p class="h2 carousel-item__title mb-3">Спортивный костюм</p>--}}
                                     {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
-                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                        Хочу еще модели
-                                    </button>
-                                </div>
-                            </div>
+                                    {{--<button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">--}}
+                                        {{--Хочу еще модели--}}
+                                    {{--</button>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
 
-                        </div>
-                        <div class="carousel-item carousel-item--2">
-                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/2.jpg') }});"></div>
-                            <div class="carousel-item__info">
-                                <div class="carousel-item__container">
+                        {{--</div>--}}
+                        {{--<div class="carousel-item carousel-item--2">--}}
+                            {{--<div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/2.jpg') }});"></div>--}}
+                            {{--<div class="carousel-item__info">--}}
+                                {{--<div class="carousel-item__container">--}}
                                     {{--<h2 class="carousel-item__subtitle">The big window </h2>--}}
-                                    <p class="h2 carousel-item__title mb-3">Топ</p>
+                                    {{--<p class="h2 carousel-item__title mb-3">Топ</p>--}}
                                     {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
-                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                        Хочу еще модели
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item carousel-item--3">
-                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/3.jpg') }});"></div>
-                            <div class="carousel-item__info">
-                                <div class="carousel-item__container">
+                                    {{--<button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">--}}
+                                        {{--Хочу еще модели--}}
+                                    {{--</button>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="carousel-item carousel-item--3">--}}
+                            {{--<div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/3.jpg') }});"></div>--}}
+                            {{--<div class="carousel-item__info">--}}
+                                {{--<div class="carousel-item__container">--}}
                                     {{--<h2 class="carousel-item__subtitle">Tropical palms </h2>--}}
-                                    <p class="h2 carousel-item__title mb-3">Пальто</p>
+                                    {{--<p class="h2 carousel-item__title mb-3">Пальто</p>--}}
                                     {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
-                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                        Хочу еще модели
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                                    {{--<button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">--}}
+                                        {{--Хочу еще модели--}}
+                                    {{--</button>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
 
-                        <div class="carousel-item carousel-item--4">
-                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/4.jpg') }});"></div>
-                            <div class="carousel-item__info">
-                                <div class="carousel-item__container">
+                        {{--<div class="carousel-item carousel-item--4">--}}
+                            {{--<div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/4.jpg') }});"></div>--}}
+                            {{--<div class="carousel-item__info">--}}
+                                {{--<div class="carousel-item__container">--}}
                                     {{--<h2 class="carousel-item__subtitle">Beach </h2>--}}
-                                    <p class="h2 carousel-item__title mb-3">Платье-рубашка</p>
+                                    {{--<p class="h2 carousel-item__title mb-3">Платье-рубашка</p>--}}
                                     {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
-                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                        Хочу еще модели
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                                    {{--<button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">--}}
+                                        {{--Хочу еще модели--}}
+                                    {{--</button>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
 
-                        <div class="carousel-item carousel-item--5">
-                            <div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/5.jpg') }});"></div>
-                            <div class="carousel-item__info">
-                                <div class="carousel-item__container">
+                        {{--<div class="carousel-item carousel-item--5">--}}
+                            {{--<div class="carousel-item__image" style="background-image: url({{ asset('images/catalog/5.jpg') }});"></div>--}}
+                            {{--<div class="carousel-item__info">--}}
+                                {{--<div class="carousel-item__container">--}}
                                     {{--<h2 class="carousel-item__subtitle">The white building </h2>--}}
-                                    <p class="h2 carousel-item__title mb-3">Куртка</p>
+                                    {{--<p class="h2 carousel-item__title mb-3">Куртка</p>--}}
                                     {{--<p class="carousel-item__description">какое-то описание какое-то описание какое-то описание какое-то описание</p>--}}
-                                    <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                        Хочу еще модели
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                                    {{--<button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">--}}
+                                        {{--Хочу еще модели--}}
+                                    {{--</button>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
@@ -262,42 +428,61 @@
 @endsection
 
 @push('scripts')
+    {{--<script>--}}
+        {{--$(function(){--}}
+            {{--$('.carousel-item').eq(0).addClass('active');--}}
+            {{--var total = $('.carousel-item').length;--}}
+            {{--var current = 0;--}}
+            {{--$('#moveRight').on('click', function(){--}}
+                {{--var next=current;--}}
+                {{--current= current+1;--}}
+                {{--setSlide(next, current);--}}
+            {{--});--}}
+            {{--$('#moveLeft').on('click', function(){--}}
+                {{--var prev=current;--}}
+                {{--current = current- 1;--}}
+                {{--setSlide(prev, current);--}}
+            {{--});--}}
+            {{--function setSlide(prev, next){--}}
+                {{--var slide= current;--}}
+                {{--if(next>total-1){--}}
+                    {{--slide=0;--}}
+                    {{--current=0;--}}
+                {{--}--}}
+                {{--if(next<0){--}}
+                    {{--slide=total - 1;--}}
+                    {{--current=total - 1;--}}
+                {{--}--}}
+                {{--$('.carousel-item').eq(prev).removeClass('active');--}}
+                {{--$('.carousel-item').eq(slide).addClass('active');--}}
+                {{--setTimeout(function(){--}}
+
+                {{--},800);--}}
+
+
+
+                {{--console.log('current '+current);--}}
+                {{--console.log('prev '+prev);--}}
+            {{--}--}}
+        {{--});--}}
+    {{--</script>--}}
     <script>
-        $(function(){
-            $('.carousel-item').eq(0).addClass('active');
-            var total = $('.carousel-item').length;
-            var current = 0;
-            $('#moveRight').on('click', function(){
-                var next=current;
-                current= current+1;
-                setSlide(next, current);
-            });
-            $('#moveLeft').on('click', function(){
-                var prev=current;
-                current = current- 1;
-                setSlide(prev, current);
-            });
-            function setSlide(prev, next){
-                var slide= current;
-                if(next>total-1){
-                    slide=0;
-                    current=0;
+        var owl = $('.owl-one');
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            // autoplaySpeed: 1500,
+            // autoplayHoverPause:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                700: {
+                    items: 3
                 }
-                if(next<0){
-                    slide=total - 1;
-                    current=total - 1;
-                }
-                $('.carousel-item').eq(prev).removeClass('active');
-                $('.carousel-item').eq(slide).addClass('active');
-                setTimeout(function(){
-
-                },800);
-
-
-
-                console.log('current '+current);
-                console.log('prev '+prev);
             }
-        });
+        })
     </script>
 @endpush
