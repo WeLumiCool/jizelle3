@@ -117,7 +117,7 @@
                 if (scrollTop >= second.height() && check == 0) {
                     setTimeout(function () {
                         $('#catch').modal('show');
-                    },10000);
+                    },25000);
                     // console.log(check);
                     check = 1;
                 }
