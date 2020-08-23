@@ -9,7 +9,7 @@
                             <h1 class="font-weight-normal text-right" style="font-size: 40px; line-height: 47px;">Закупка Plus Size модели от 10 ед. <br>
                                 с <strong>бесплатной</strong> доставкой! </h1>
                         </div>
-                        <button class="btn mt-4 px-4 py-3 rounded font-size-28 px-5" style="background-color: #E5DD90;" data-toggle="modal" data-target="#submit">
+                        <button class="btn mt-4 px-4 py-3 rounded font-size-28 px-5 position-relative" style="background-color: #E5DD90; z-index: 10;" data-toggle="modal" data-target="#submit">
                             Ознакомиться
                         </button>
                     </div>
