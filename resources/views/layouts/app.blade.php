@@ -145,8 +145,9 @@
         $('#accept').click(function () {
             var name = $('#inputName').val();
             var phone = $('#telephone').val();
+            var city = $('#city').val();
 
-            if (name == '' || phone == '') {
+            if (name == '' || phone == '' || city == '') {
                 Swal.fire({
                     position: 'center',
                     icon: 'error',
@@ -160,7 +161,8 @@
                     data: {
                         "_token": "{{ csrf_token() }}",
                         "name": name,
-                        "phone": phone
+                        "phone": phone,
+                        "city": city
                     },
                     success: data => {
                         if (data.check == 1){
@@ -172,6 +174,7 @@
                             $('#submit').modal('hide');;
                             $('#inputName').val('');
                             $('#telephone').val('');
+                            $('#city').val('');
                         }
                         else if (data.check == 0) {
                             Swal.fire({
@@ -182,6 +185,7 @@
                             $('#submit').modal('hide');
                             $('#inputName').val('');
                             $('#telephone').val('');
+                            $('#city').val('');
                         }
                     },
                     error: () => {
@@ -194,8 +198,9 @@
         $('#accept2').click(function () {
             var name = $('#name').val();
             var phone = $('#phone').val();
+            var city = $('#city').val();
 
-            if (name == '' || phone == '') {
+            if (name == '' || phone == '' || city == '') {
                 Swal.fire({
                     position: 'center',
                     icon: 'error',
@@ -209,7 +214,8 @@
                     data: {
                         "_token": "{{ csrf_token() }}",
                         "name": name,
-                        "phone": phone
+                        "phone": phone,
+                        "city": city
                     },
                     success: data => {
                         if (data.check == 1){
@@ -221,6 +227,7 @@
                             $('#catch').modal('hide');
                             $('#name').val('');
                             $('#phone').val('');
+                            $('#city').val('')
                         }
                         else if (data.check == 0) {
                             Swal.fire({
@@ -231,6 +238,7 @@
                             $('#catch').modal('hide');
                             $('#name').val('');
                             $('#phone').val('');
+                            $('#city').val('');
                         }
                     },
                     error: () => {

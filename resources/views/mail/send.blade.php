@@ -12,6 +12,7 @@
         <br>
         <strong class="TTLight">Имя:</strong> {{ $formData['name'] }}<br>
         <strong class="TTLight">Телефон:</strong> {{ $formData['phone'] }}<br>
+        <strong class="TTLight">Город:</strong> {{ $formData['city'] }}<br>
         <br>
     </div>
     {{--<img src="" style="width:50px; height:60px;" alt="">--}}
