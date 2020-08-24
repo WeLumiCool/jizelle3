@@ -40,8 +40,8 @@
                                                 </div>
                                                 <div class="mt-2">
                                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                                        Заказать в один клик
-                                                        {{--Хочу еще модели--}}
+                                                        {{--Заказать в один клик--}}
+                                                        Хочу еще модели
                                                     </button>
                                                 </div>
                                             </div>
@@ -67,8 +67,8 @@
                                                 </div>
                                                 <div class="mt-2">
                                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                                        Заказать в один клик
-                                                        {{--Хочу еще модели--}}
+                                                        {{--Заказать в один клик--}}
+                                                        Хочу еще модели
                                                     </button>
                                                 </div>
                                             </div>
@@ -94,8 +94,8 @@
                                                 </div>
                                                 <div class="mt-2">
                                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                                        Заказать в один клик
-                                                        {{--Хочу еще модели--}}
+                                                        {{--Заказать в один клик--}}
+                                                        Хочу еще модели
                                                     </button>
                                                 </div>
                                             </div>
@@ -121,8 +121,8 @@
                                                 </div>
                                                 <div class="mt-2">
                                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                                        Заказать в один клик
-                                                        {{--Хочу еще модели--}}
+                                                        {{--Заказать в один клик--}}
+                                                        Хочу еще модели
                                                     </button>
                                                 </div>
                                             </div>
@@ -148,8 +148,8 @@
                                                 </div>
                                                 <div class="mt-2">
                                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                                        Заказать в один клик
-                                                        {{--Хочу еще модели--}}
+                                                        {{--Заказать в один клик--}}
+                                                        Хочу еще модели
                                                     </button>
                                                 </div>
                                             </div>
@@ -175,8 +175,8 @@
                                                 </div>
                                                 <div class="mt-2">
                                                     <button class="btn jizelle-btn font-size-18 w-100" data-toggle="modal" data-target="#submit">
-                                                        Заказать в один клик
-                                                        {{--Хочу еще модели--}}
+                                                        {{--Заказать в один клик--}}
+                                                        Хочу еще модели
                                                     </button>
                                                 </div>
                                             </div>
