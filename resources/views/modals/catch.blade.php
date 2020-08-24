@@ -12,6 +12,10 @@
                     <input type="text" id="name" class="form-control" placeholder="Введите имя" required="" autofocus="">
                 </div>
                 <div class="form-label-group pt-4">
+                    <label for="inputCity">Город</label>
+                    <input type="text" name="city" id="city" class="form-control" placeholder="Введите ваш город" required="" autofocus="">
+                </div>
+                <div class="form-label-group pt-4">
                     <label for="telephone">Номер телефона</label>
                     <input type="text" id="phone" class="form-control" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode === 43' placeholder="Введите номер телефона" required="" autofocus="">
                 </div>
