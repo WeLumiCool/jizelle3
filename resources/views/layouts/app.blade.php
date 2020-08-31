@@ -37,7 +37,12 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script charset="UTF-8" src="//web.webpushs.com/js/push/f5c64cd84717959c7df5ae3568360614_0.js" async></script>
     {{--<script charset="UTF-8" src="//web.webpushs.com/js/push/5c5ca928b37518e28b9941155dfbe9c5_0.js" async></script>--}}
-
+    <script>
+        (function(w,d,u){
+            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn-ru.bitrix24.ru/b14654324/crm/site_button/loader_1_obvid9.js');
+    </script>
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
